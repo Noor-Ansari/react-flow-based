@@ -1,0 +1,8 @@
+.nodes-panel-container {
+    border: 2px solid #a59191;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

@@ -1,0 +1,74 @@
+.view-mode-text-node {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+.view-mode-text-node:hover {
+    cursor: pointer;
+    background-color: rgb(194, 194, 243);
+}
+
+.view-mode-text-node svg,
+.view-mode-text-node p {
+    font-family: sans-serif;
+    color: blue;
+}
+
+.view-mode-text-node svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.text-node-container {
+    border: 1px solid #333;
+    box-shadow: 3px 3px 3px 3px #c7b7b7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.text-node-header,
+.text-node-body {
+    padding: 0.5rem 1.5rem;
+    background-color: #fff;
+}
+
+.text-node-header {
+    background-color: #e5e1db;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.text-node-header svg:first-of-type {
+    fill: rgb(62, 62, 43);
+}
+
+.text-node-header svg:last-of-type {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 50%;
+    fill: rgb(122, 122, 24);
+}
+
+.text-node-header svg {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.text-node-settings-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.text-node-settings-container textarea {
+    padding: 0.2rem;
+}

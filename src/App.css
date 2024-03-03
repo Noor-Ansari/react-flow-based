@@ -1,0 +1,12 @@
+.root-container {
+  display: flex;
+  height: 100vh;
+}
+
+.working-area-container {
+  width: 75%;
+}
+
+.sidebar-container {
+  width: 25%;
+}
